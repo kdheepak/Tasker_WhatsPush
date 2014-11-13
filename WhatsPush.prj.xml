@@ -1,0 +1,1790 @@
+<TaskerData sr="" dvi="1" tv="4.5u1m">
+	<Profile sr="prof11" ve="2">
+		<cdate>1415126223320</cdate>
+		<edate>1415375775574</edate>
+		<id>11</id>
+		<mid0>10</mid0>
+		<nme>WhatsApp Message To Desktop</nme>
+		<State sr="con0" ve="2">
+			<code>37529</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>WhatsApp notifications will be intercepted</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%wt_id
+Message ID
+ID of the message in the database&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%wt_type
+Message type
+String of text that contains the type of message, being one of: text, image, audio, video, contact (for a contact card) or location&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%wt_senderid
+Sender ID
+ID of the person or group sending the message&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%wt_sendername
+Sender name
+Name of the person or group sending the message&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%wt_senderimage
+Sender image
+Picture of the person or group sending the message&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%wt_groupsenderid
+Group sender ID
+If the message comes from a group, this is the ID of the person inside the group&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%wt_groupsendername
+Group sender name
+If the message comes from a group, this is the name of the person inside the group&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%wt_groupsenderimage
+Group sender image
+If the message comes from a group, this is the picture of the person inside the group&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%wt_timestamp
+Timestamp
+Timestamp marking when was the message sent (in millis from UNIX epoch)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%wt_message
+Message text
+If the message is of type "text" this contains the text being sent. If the type is "card" this contains the contact card&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%wt_mediamimetype
+Media MIME type
+Media MIME type for image, audio and video messages&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%wt_mediapath
+Media path
+Path to the file in the phone storage. It could be empty if the file hasn't been downloaded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%wt_latitude
+Latitude
+Latitude for a location message&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;%wt_longitude
+Longitude
+Longitude for a location message&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<net.zhdev.whatstasker.EXTRA_WAIT_FOR_MEDIA>false</net.zhdev.whatstasker.EXTRA_WAIT_FOR_MEDIA>
+					<net.zhdev.whatstasker.EXTRA_WAIT_FOR_MEDIA-type>java.lang.Boolean</net.zhdev.whatstasker.EXTRA_WAIT_FOR_MEDIA-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">net.zhdev.whatstasker</Str>
+			<Str sr="arg2" ve="3">WhatsTasker Message Received</Str>
+		</State>
+	</Profile>
+	<Profile sr="prof13" ve="2">
+		<cdate>1415204596216</cdate>
+		<clp>true</clp>
+		<edate>1415375582766</edate>
+		<id>13</id>
+		<mid1>14</mid1>
+		<App sr="con0" ve="2">
+			<cls0>com.whatsapp.Main</cls0>
+			<flags>2</flags>
+			<label0>WhatsApp</label0>
+			<pkg0>com.whatsapp</pkg0>
+		</App>
+	</Profile>
+	<Profile sr="prof27" ve="2">
+		<cdate>1415169374304</cdate>
+		<clp>true</clp>
+		<edate>1415349629756</edate>
+		<id>27</id>
+		<mid0>28</mid0>
+		<nme>WhatsApp Message From Desktop</nme>
+		<State sr="con0" ve="2">
+			<code>5783</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>sendwhatsappmessage=:=</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<commparamsvar>&lt;null&gt;</commparamsvar>
+					<commparamsvar-type>java.lang.String</commparamsvar-type>
+					<instant>true</instant>
+					<instant-type>java.lang.Boolean</instant-type>
+					<message>sendwhatsappmessage=:=</message>
+					<message-type>java.lang.String</message-type>
+					<messagecaseinsensitive>false</messagecaseinsensitive>
+					<messagecaseinsensitive-type>java.lang.Boolean</messagecaseinsensitive-type>
+					<messageexact>false</messageexact>
+					<messageexact-type>java.lang.Boolean</messageexact-type>
+					<messageregex>false</messageregex>
+					<messageregex-type>java.lang.Boolean</messageregex-type>
+					<messagevar>&lt;null&gt;</messagevar>
+					<messagevar-type>java.lang.String</messagevar-type>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>true</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>java.lang.Boolean</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%armessage
+The whole received AutoRemote message.
+The whole received AutoRemote message.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%arpar()
+Single words to the left of =:=
+Single words to the left of =:=&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%arcomm
+Whole of the text to the right of =:=
+Whole of the text to the right of =:=&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%artime
+Current Time
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%arfiles()
+Files
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%arsenderbtmac
+Sender Bluetooth Mac Address
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%arsenderid
+Sender Id
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%arsenderlocalip
+Sender Local IP
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%arsendername
+Sender Name
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%arsenderpublicip
+Sender Public IP
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%arsendertype
+Sender Type
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%arvia
+Way the message was sent (BT, Wifi, GCM)
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid messagevar tempvar commparamsvar message target </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>5d1fe16a-3a76-4feb-b2ef-2f1b2b6e6433</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoremote.IntentRemote</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+					<target>&lt;null&gt;</target>
+					<target-type>java.lang.String</target-type>
+					<tempvar>&lt;null&gt;</tempvar>
+					<tempvar-type>java.lang.String</tempvar-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoremote</Str>
+			<Str sr="arg2" ve="3">AutoRemote</Str>
+		</State>
+	</Profile>
+	<Profile sr="prof32" ve="2">
+		<cdate>1415169374304</cdate>
+		<clp>true</clp>
+		<edate>1415340324486</edate>
+		<id>32</id>
+		<mid0>37</mid0>
+		<nme>Clear WhatsApp Message From Sender</nme>
+		<State sr="con0" ve="2">
+			<code>5783</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>clearwhatsappmessage</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<commparamsvar>&lt;null&gt;</commparamsvar>
+					<commparamsvar-type>java.lang.String</commparamsvar-type>
+					<instant>true</instant>
+					<instant-type>java.lang.Boolean</instant-type>
+					<message>clearwhatsappmessage</message>
+					<message-type>java.lang.String</message-type>
+					<messagecaseinsensitive>false</messagecaseinsensitive>
+					<messagecaseinsensitive-type>java.lang.Boolean</messagecaseinsensitive-type>
+					<messageexact>false</messageexact>
+					<messageexact-type>java.lang.Boolean</messageexact-type>
+					<messageregex>false</messageregex>
+					<messageregex-type>java.lang.Boolean</messageregex-type>
+					<messagevar>&lt;null&gt;</messagevar>
+					<messagevar-type>java.lang.String</messagevar-type>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>true</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>java.lang.Boolean</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%armessage
+The whole received AutoRemote message.
+The whole received AutoRemote message.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%arpar()
+Single words to the left of =:=
+Single words to the left of =:=&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%arcomm
+Whole of the text to the right of =:=
+Whole of the text to the right of =:=&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%artime
+Current Time
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%arfiles()
+Files
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%arsenderbtmac
+Sender Bluetooth Mac Address
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%arsenderid
+Sender Id
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%arsenderlocalip
+Sender Local IP
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%arsendername
+Sender Name
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%arsenderpublicip
+Sender Public IP
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%arsendertype
+Sender Type
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%arvia
+Way the message was sent (BT, Wifi, GCM)
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid messagevar tempvar commparamsvar message target </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>5d1fe16a-3a76-4feb-b2ef-2f1b2b6e6433</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoremote.IntentRemote</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+					<target>&lt;null&gt;</target>
+					<target-type>java.lang.String</target-type>
+					<tempvar>&lt;null&gt;</tempvar>
+					<tempvar-type>java.lang.String</tempvar-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoremote</Str>
+			<Str sr="arg2" ve="3">AutoRemote</Str>
+		</State>
+	</Profile>
+	<Profile sr="prof33" ve="2">
+		<cdate>1415209544781</cdate>
+		<clp>true</clp>
+		<edate>1415340331638</edate>
+		<id>33</id>
+		<mid0>36</mid0>
+		<nme>Undismissed Messages To Desktop</nme>
+		<Event sr="con0" ve="2">
+			<code>14783</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>retrievewhatsappmessage</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<commparamsvar>&lt;null&gt;</commparamsvar>
+					<commparamsvar-type>java.lang.String</commparamsvar-type>
+					<message>retrievewhatsappmessage</message>
+					<message-type>java.lang.String</message-type>
+					<messagecaseinsensitive>false</messagecaseinsensitive>
+					<messagecaseinsensitive-type>java.lang.Boolean</messagecaseinsensitive-type>
+					<messageexact>false</messageexact>
+					<messageexact-type>java.lang.Boolean</messageexact-type>
+					<messageregex>false</messageregex>
+					<messageregex-type>java.lang.Boolean</messageregex-type>
+					<messagevar>&lt;null&gt;</messagevar>
+					<messagevar-type>java.lang.String</messagevar-type>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>true</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>java.lang.Boolean</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%armessage
+The whole received AutoRemote message.
+The whole received AutoRemote message.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%arpar()
+Single words to the left of =:=
+Single words to the left of =:=&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%arcomm
+Whole of the text to the right of =:=
+Whole of the text to the right of =:=&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%artime
+Current Time
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%arfiles()
+Files
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%arsenderbtmac
+Sender Bluetooth Mac Address
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%arsenderid
+Sender Id
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%arsenderlocalip
+Sender Local IP
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%arsendername
+Sender Name
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%arsenderpublicip
+Sender Public IP
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%arsendertype
+Sender Type
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%arvia
+Way the message was sent (BT, Wifi, GCM)
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid messagevar tempvar commparamsvar message </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>56baa386-bfff-4d60-bf7f-5752c577240e</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoremote.IntentRemoteEvent</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+					<tempvar>&lt;null&gt;</tempvar>
+					<tempvar-type>java.lang.String</tempvar-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoremote</Str>
+			<Str sr="arg2" ve="3">AutoRemote</Str>
+		</Event>
+	</Profile>
+	<Profile sr="prof39" ve="2">
+		<cdate>1415334787570</cdate>
+		<clp>true</clp>
+		<edate>1415375664257</edate>
+		<id>39</id>
+		<mid0>40</mid0>
+		<Event sr="con0" ve="2">
+			<code>14783</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>findwhatsappcontact</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<commparamsvar>&lt;null&gt;</commparamsvar>
+					<commparamsvar-type>java.lang.String</commparamsvar-type>
+					<message>findwhatsappcontact</message>
+					<message-type>java.lang.String</message-type>
+					<messagecaseinsensitive>false</messagecaseinsensitive>
+					<messagecaseinsensitive-type>java.lang.Boolean</messagecaseinsensitive-type>
+					<messageexact>false</messageexact>
+					<messageexact-type>java.lang.Boolean</messageexact-type>
+					<messageregex>false</messageregex>
+					<messageregex-type>java.lang.Boolean</messageregex-type>
+					<messagevar>&lt;null&gt;</messagevar>
+					<messagevar-type>java.lang.String</messagevar-type>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>true</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>java.lang.Boolean</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%armessage
+The whole received AutoRemote message.
+The whole received AutoRemote message.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%arpar()
+Single words to the left of =:=
+Single words to the left of =:=&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%arcomm
+Whole of the text to the right of =:=
+Whole of the text to the right of =:=&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%artime
+Current Time
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%arfiles()
+Files
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%arsenderbtmac
+Sender Bluetooth Mac Address
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%arsenderid
+Sender Id
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%arsenderlocalip
+Sender Local IP
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%arsendername
+Sender Name
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%arsenderpublicip
+Sender Public IP
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%arsendertype
+Sender Type
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%arvia
+Way the message was sent (BT, Wifi, GCM)
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid messagevar tempvar commparamsvar message </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>8d3ed97c-d581-44db-907b-f12425b80d9d</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoremote.IntentRemoteEvent</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+					<tempvar>&lt;null&gt;</tempvar>
+					<tempvar-type>java.lang.String</tempvar-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoremote</Str>
+			<Str sr="arg2" ve="3">AutoRemote</Str>
+		</Event>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1411773776171</cdate>
+		<name>WhatsPush</name>
+		<pids>27,13,39,33,32,11</pids>
+		<tids>40,28,10,37,36,14</tids>
+		<Kid sr="Kid">
+			<launchID>10</launchID>
+			<pkg>com.kd.apps</pkg>
+			<vnme>1.0</vnme>
+			<vnum>2</vnum>
+		</Kid>
+	</Project>
+	<Task sr="task10">
+		<cdate>1411668996237</cdate>
+		<edate>1415375775574</edate>
+		<id>10</id>
+		<nme>Receive Message On Desktop</nme>
+		<pri>10</pri>
+		<rty>2</rty>
+		<stayawake>true</stayawake>
+		<Action sr="act0" ve="7">
+			<code>596</code>
+			<Str sr="arg0" ve="3">%wt_type</Str>
+			<Int sr="arg1" val="30"/>
+			<Str sr="arg2" ve="3">%text</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%wt_type</lhs>
+					<op>3</op>
+					<rhs>text</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%text</Str>
+			<Str sr="arg1" ve="3">%wt_message</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%wt_type</lhs>
+					<op>2</op>
+					<rhs>text</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%whatsappName</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%wt_sendername</Str>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%whatsappPicture</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%wt_senderimage</Str>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%whatsappText</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%text</Str>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%text</Str>
+			<Str sr="arg1" ve="3">%whatsappText(%iter)
+%text</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%whatsappText(%iter)</Str>
+			<Str sr="arg1" ve="3">%text</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%iter</Str>
+			<Str sr="arg1" ve="3">%whatsappID(#?%wt_senderid)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>26965</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ActionButton1Popup>%whatsappText(%iter)</ActionButton1Popup>
+					<ActionButton1Popup-type>java.lang.String</ActionButton1Popup-type>
+					<ActionButton2Popup>&lt;null&gt;</ActionButton2Popup>
+					<ActionButton2Popup-type>java.lang.String</ActionButton2Popup-type>
+					<ActionOnDismissPopup>&lt;null&gt;</ActionOnDismissPopup>
+					<ActionOnDismissPopup-type>java.lang.String</ActionOnDismissPopup-type>
+					<ActionOnTouchPopup>&lt;null&gt;</ActionOnTouchPopup>
+					<ActionOnTouchPopup-type>java.lang.String</ActionOnTouchPopup-type>
+					<NotificationButtonIcon1Text>https://cdn3.iconfinder.com/data/icons/miniglyphs/500/060-512.png</NotificationButtonIcon1Text>
+					<NotificationButtonIcon1Text-type>java.lang.String</NotificationButtonIcon1Text-type>
+					<NotificationButtonIcon2Text>https://cdn3.iconfinder.com/data/icons/iconano-text-editor/512/135-X-alt-512.png</NotificationButtonIcon2Text>
+					<NotificationButtonIcon2Text-type>java.lang.String</NotificationButtonIcon2Text-type>
+					<NotificationButtonIcon3Text>&lt;null&gt;</NotificationButtonIcon3Text>
+					<NotificationButtonIcon3Text-type>java.lang.String</NotificationButtonIcon3Text-type>
+					<collapsekey>&lt;null&gt;</collapsekey>
+					<collapsekey-type>java.lang.String</collapsekey-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Recipient: %deviceName
+Id: %whatsappID(%iter)
+Title: %whatsappName(%iter)
+Text: %whatsappText(%iter)
+Icon: %whatsappPicture(%iter)
+Status Bar Icon: ic_launcher
+Dismiss on Touch: true
+Persistent: true
+Share: false
+Button 1: sendwhatsappmessage=:= %whatsappID(%iter) =:=
+Button 1 Popup: %whatsappText(%iter)
+Label 1: Reply
+Icon 1: AutoRemote
+Icon 1 Path: https://cdn3.iconfinder.com/data/icons/miniglyphs/500/060-512.png
+Button 2: clearwhatsappmessage=:=%whatsappID(%iter)
+Label 2: Clear
+Icon 2: AutoRemote
+Icon 2 Path: https://cdn3.iconfinder.com/data/icons/iconano-text-editor/512/135-X-alt-512.png
+Icon 3: AutoRemote</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<config_action_1_icon>&lt;null&gt;</config_action_1_icon>
+					<config_action_1_icon-type>java.lang.String</config_action_1_icon-type>
+					<config_action_2_icon>&lt;null&gt;</config_action_2_icon>
+					<config_action_2_icon-type>java.lang.String</config_action_2_icon-type>
+					<config_action_3_icon>&lt;null&gt;</config_action_3_icon>
+					<config_action_3_icon-type>java.lang.String</config_action_3_icon-type>
+					<config_message_recipient_name>%deviceName</config_message_recipient_name>
+					<config_message_recipient_name-type>java.lang.String</config_message_recipient_name-type>
+					<config_notification_action>&lt;null&gt;</config_notification_action>
+					<config_notification_action-type>java.lang.String</config_notification_action-type>
+					<config_notification_action_button1>sendwhatsappmessage=:= %whatsappID(%iter) =:=</config_notification_action_button1>
+					<config_notification_action_button1-type>java.lang.String</config_notification_action_button1-type>
+					<config_notification_action_button2>clearwhatsappmessage=:=%whatsappID(%iter)</config_notification_action_button2>
+					<config_notification_action_button2-type>java.lang.String</config_notification_action_button2-type>
+					<config_notification_action_button3>&lt;null&gt;</config_notification_action_button3>
+					<config_notification_action_button3-type>java.lang.String</config_notification_action_button3-type>
+					<config_notification_action_label1>Reply</config_notification_action_label1>
+					<config_notification_action_label1-type>java.lang.String</config_notification_action_label1-type>
+					<config_notification_action_label2>Clear</config_notification_action_label2>
+					<config_notification_action_label2-type>java.lang.String</config_notification_action_label2-type>
+					<config_notification_action_label3>&lt;null&gt;</config_notification_action_label3>
+					<config_notification_action_label3-type>java.lang.String</config_notification_action_label3-type>
+					<config_notification_action_on_dismiss>&lt;null&gt;</config_notification_action_on_dismiss>
+					<config_notification_action_on_dismiss-type>java.lang.String</config_notification_action_on_dismiss-type>
+					<config_notification_action_share>false</config_notification_action_share>
+					<config_notification_action_share-type>java.lang.Boolean</config_notification_action_share-type>
+					<config_notification_content_info>&lt;null&gt;</config_notification_content_info>
+					<config_notification_content_info-type>java.lang.String</config_notification_content_info-type>
+					<config_notification_dismiss_on_touch>true</config_notification_dismiss_on_touch>
+					<config_notification_dismiss_on_touch-type>java.lang.Boolean</config_notification_dismiss_on_touch-type>
+					<config_notification_icon>%whatsappPicture(%iter)</config_notification_icon>
+					<config_notification_icon-type>java.lang.String</config_notification_icon-type>
+					<config_notification_indeterminate_progress>false</config_notification_indeterminate_progress>
+					<config_notification_indeterminate_progress-type>java.lang.Boolean</config_notification_indeterminate_progress-type>
+					<config_notification_led_color>&lt;null&gt;</config_notification_led_color>
+					<config_notification_led_color-type>java.lang.String</config_notification_led_color-type>
+					<config_notification_led_off>&lt;null&gt;</config_notification_led_off>
+					<config_notification_led_off-type>java.lang.String</config_notification_led_off-type>
+					<config_notification_led_on>&lt;null&gt;</config_notification_led_on>
+					<config_notification_led_on-type>java.lang.String</config_notification_led_on-type>
+					<config_notification_max_progress>&lt;null&gt;</config_notification_max_progress>
+					<config_notification_max_progress-type>java.lang.String</config_notification_max_progress-type>
+					<config_notification_number>&lt;null&gt;</config_notification_number>
+					<config_notification_number-type>java.lang.String</config_notification_number-type>
+					<config_notification_persistent>true</config_notification_persistent>
+					<config_notification_persistent-type>java.lang.Boolean</config_notification_persistent-type>
+					<config_notification_persistent_create>false</config_notification_persistent_create>
+					<config_notification_persistent_create-type>java.lang.Boolean</config_notification_persistent_create-type>
+					<config_notification_picture>&lt;null&gt;</config_notification_picture>
+					<config_notification_picture-type>java.lang.String</config_notification_picture-type>
+					<config_notification_priority>&lt;null&gt;</config_notification_priority>
+					<config_notification_priority-type>java.lang.String</config_notification_priority-type>
+					<config_notification_progress>&lt;null&gt;</config_notification_progress>
+					<config_notification_progress-type>java.lang.String</config_notification_progress-type>
+					<config_notification_subtext>&lt;null&gt;</config_notification_subtext>
+					<config_notification_subtext-type>java.lang.String</config_notification_subtext-type>
+					<config_notification_text>%whatsappText(%iter)</config_notification_text>
+					<config_notification_text-type>java.lang.String</config_notification_text-type>
+					<config_notification_ticker>&lt;null&gt;</config_notification_ticker>
+					<config_notification_ticker-type>java.lang.String</config_notification_ticker-type>
+					<config_notification_title>%whatsappName(%iter)</config_notification_title>
+					<config_notification_title-type>java.lang.String</config_notification_title-type>
+					<config_notification_url>&lt;null&gt;</config_notification_url>
+					<config_notification_url-type>java.lang.String</config_notification_url-type>
+					<config_notification_vibration>&lt;null&gt;</config_notification_vibration>
+					<config_notification_vibration-type>java.lang.String</config_notification_vibration-type>
+					<config_status_bar_icon>ic_launcher</config_status_bar_icon>
+					<config_status_bar_icon-type>java.lang.String</config_status_bar_icon-type>
+					<configchannel>&lt;null&gt;</configchannel>
+					<configchannel-type>java.lang.String</configchannel-type>
+					<configregid>deviceName</configregid>
+					<configregid-type>java.lang.String</configregid-type>
+					<configttl>&lt;null&gt;</configttl>
+					<configttl-type>java.lang.String</configttl-type>
+					<message>&lt;null&gt;</message>
+					<message-type>java.lang.String</message-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid message passwordSendmessage configregid configttl configchannel collapsekey config_message_recipient_name config_notification_title config_notification_text config_notification_url config_notification_action config_notification_icon config_notification_led_color config_notification_led_on config_notification_led_off config_notification_picture config_notification_action_button1 config_notification_action_label1 config_notification_action_button2 config_notification_action_label2 config_notification_action_button3 config_notification_action_label3 notificaitionid notificaitionsound config_notification_vibration config_status_bar_icon config_action_1_icon config_action_2_icon config_action_3_icon config_notification_ticker config_notification_priority config_notification_number config_notification_content_info config_notification_subtext config_notification_max_progress config_notification_progress target config_notification_action_on_dismiss NotificationButtonIcon1Text NotificationButtonIcon2Text NotificationButtonIcon3Text ActionOnTouchPopup ActionOnDismissPopup ActionButton1Popup ActionButton2Popup </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<notificaitionid>%whatsappID(%iter)</notificaitionid>
+					<notificaitionid-type>java.lang.String</notificaitionid-type>
+					<notificaitionsound>&lt;null&gt;</notificaitionsound>
+					<notificaitionsound-type>java.lang.String</notificaitionsound-type>
+					<passwordSendmessage>&lt;null&gt;</passwordSendmessage>
+					<passwordSendmessage-type>java.lang.String</passwordSendmessage-type>
+					<plugininstanceid>f8acf252-41ad-45a7-97aa-5d0122eb6c97</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoremote.IntentSendNotification</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+					<target>&lt;null&gt;</target>
+					<target-type>java.lang.String</target-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoremote</Str>
+			<Str sr="arg2" ve="3">AutoRemote Notification</Str>
+			<Int sr="arg3" val="200"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Sent text message to desktop</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%wt_senderid</lhs>
+					<op>4</op>
+					<rhs>.*@g.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%text</Str>
+			<Str sr="arg1" ve="3">%wt_groupsendername: %text</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%text</Str>
+			<Str sr="arg1" ve="3">%wt_sendername: %text</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%iter</Str>
+			<Str sr="arg1" ve="3">%whatsappID(#?%wt_senderid)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%iter</lhs>
+					<op>0</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%whatsappID</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%wt_senderid</Str>
+			<Int sr="arg3" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task14">
+		<cdate>1415204601427</cdate>
+		<edate>1415341295676</edate>
+		<id>14</id>
+		<nme>Clearing WhatsApp Tasker Variables</nme>
+		<pri>10</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%whatsappID(#)</lhs>
+					<op>1</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Clearing WhatsApp variables</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>357</code>
+			<Str sr="arg0" ve="3">%whatsappID</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>357</code>
+			<Str sr="arg0" ve="3">%whatsappName</Str>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>357</code>
+			<Str sr="arg0" ve="3">%whatsappPicture</Str>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>357</code>
+			<Str sr="arg0" ve="3">%whatsappText</Str>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task28">
+		<cdate>1415169379572</cdate>
+		<edate>1415339955772</edate>
+		<id>28</id>
+		<nme>Send Message Thru WhatsApp</nme>
+		<pri>10</pri>
+		<rty>2</rty>
+		<stayawake>true</stayawake>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Received WhatsApp message 
+
+from %arcomm1</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%arcomm1</lhs>
+					<op>4</op>
+					<rhs>.*@.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>356</code>
+			<Str sr="arg0" ve="3">%whatsappPicture</Str>
+			<Int sr="arg1">
+				<var>%iter</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>356</code>
+			<Str sr="arg0" ve="3">%whatsappText</Str>
+			<Int sr="arg1">
+				<var>%iter</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Cleared variables.</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Sending WhatsApp message</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>27269</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>ID: %arcomm1
+Message: %arcomm2</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>net.zhdev.whatstasker.EXTRA_CONTACT_ID net.zhdev.whatstasker.EXTRA_MESSAGE</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<net.zhdev.whatstasker.EXTRA_CONTACT_ID>%arcomm1</net.zhdev.whatstasker.EXTRA_CONTACT_ID>
+					<net.zhdev.whatstasker.EXTRA_CONTACT_ID-type>java.lang.String</net.zhdev.whatstasker.EXTRA_CONTACT_ID-type>
+					<net.zhdev.whatstasker.EXTRA_MESSAGE>%arcomm2</net.zhdev.whatstasker.EXTRA_MESSAGE>
+					<net.zhdev.whatstasker.EXTRA_MESSAGE-type>java.lang.String</net.zhdev.whatstasker.EXTRA_MESSAGE-type>
+					<net.zhdev.whatstasker.EXTRA_PLUGIN_TYPE>0</net.zhdev.whatstasker.EXTRA_PLUGIN_TYPE>
+					<net.zhdev.whatstasker.EXTRA_PLUGIN_TYPE-type>java.lang.Integer</net.zhdev.whatstasker.EXTRA_PLUGIN_TYPE-type>
+					<net.zhdev.whatstasker.EXTRA_USE_LAST_ID>false</net.zhdev.whatstasker.EXTRA_USE_LAST_ID>
+					<net.zhdev.whatstasker.EXTRA_USE_LAST_ID-type>java.lang.Boolean</net.zhdev.whatstasker.EXTRA_USE_LAST_ID-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">net.zhdev.whatstasker</Str>
+			<Str sr="arg2" ve="3">WhatsTasker Send Message</Str>
+			<Int sr="arg3" val="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%iter</Str>
+			<Str sr="arg1" ve="3">%whatsappID(#?%arcomm1)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Sent WhatsApp message.</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%iter</lhs>
+					<op>3</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Clearing variables.</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>356</code>
+			<Str sr="arg0" ve="3">%whatsappID</Str>
+			<Int sr="arg1">
+				<var>%iter</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>356</code>
+			<Str sr="arg0" ve="3">%whatsappName</Str>
+			<Int sr="arg1">
+				<var>%iter</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task36">
+		<cdate>1415209550415</cdate>
+		<edate>1415340331638</edate>
+		<id>36</id>
+		<nme>Retrieve Uncleared WhatsApp Messages</nme>
+		<pri>10</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%itermax</Str>
+			<Str sr="arg1" ve="3">%whatsappID(#)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>26965</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ActionButton1Popup>&lt;null&gt;</ActionButton1Popup>
+					<ActionButton1Popup-type>java.lang.String</ActionButton1Popup-type>
+					<ActionButton2Popup>&lt;null&gt;</ActionButton2Popup>
+					<ActionButton2Popup-type>java.lang.String</ActionButton2Popup-type>
+					<ActionOnDismissPopup>&lt;null&gt;</ActionOnDismissPopup>
+					<ActionOnDismissPopup-type>java.lang.String</ActionOnDismissPopup-type>
+					<ActionOnTouchPopup>&lt;null&gt;</ActionOnTouchPopup>
+					<ActionOnTouchPopup-type>java.lang.String</ActionOnTouchPopup-type>
+					<NotificationButtonIcon1Text>&lt;null&gt;</NotificationButtonIcon1Text>
+					<NotificationButtonIcon1Text-type>java.lang.String</NotificationButtonIcon1Text-type>
+					<NotificationButtonIcon2Text>&lt;null&gt;</NotificationButtonIcon2Text>
+					<NotificationButtonIcon2Text-type>java.lang.String</NotificationButtonIcon2Text-type>
+					<NotificationButtonIcon3Text>&lt;null&gt;</NotificationButtonIcon3Text>
+					<NotificationButtonIcon3Text-type>java.lang.String</NotificationButtonIcon3Text-type>
+					<collapsekey>&lt;null&gt;</collapsekey>
+					<collapsekey-type>java.lang.String</collapsekey-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Recipient: %deviceName
+Id: %iter
+Title: No new WhatsApp messages
+Text: Battery level : %BATT
+Icon: https://lh6.ggpht.com/mp86vbELnqLi2FzvhiKdPX31_oiTRLNyeK8x4IIrbF5eD1D5RdnVwjQP0hwMNR_JdA=s0
+Status Bar Icon: ic_launcher
+Dismiss on Touch: true
+Persistent: true
+Share: false
+Icon 1: AutoRemote
+Icon 2: AutoRemote
+Icon 3: AutoRemote</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<config_action_1_icon>&lt;null&gt;</config_action_1_icon>
+					<config_action_1_icon-type>java.lang.String</config_action_1_icon-type>
+					<config_action_2_icon>&lt;null&gt;</config_action_2_icon>
+					<config_action_2_icon-type>java.lang.String</config_action_2_icon-type>
+					<config_action_3_icon>&lt;null&gt;</config_action_3_icon>
+					<config_action_3_icon-type>java.lang.String</config_action_3_icon-type>
+					<config_message_recipient_name>%deviceName</config_message_recipient_name>
+					<config_message_recipient_name-type>java.lang.String</config_message_recipient_name-type>
+					<config_notification_action>&lt;null&gt;</config_notification_action>
+					<config_notification_action-type>java.lang.String</config_notification_action-type>
+					<config_notification_action_button1>&lt;null&gt;</config_notification_action_button1>
+					<config_notification_action_button1-type>java.lang.String</config_notification_action_button1-type>
+					<config_notification_action_button2>&lt;null&gt;</config_notification_action_button2>
+					<config_notification_action_button2-type>java.lang.String</config_notification_action_button2-type>
+					<config_notification_action_button3>&lt;null&gt;</config_notification_action_button3>
+					<config_notification_action_button3-type>java.lang.String</config_notification_action_button3-type>
+					<config_notification_action_label1>&lt;null&gt;</config_notification_action_label1>
+					<config_notification_action_label1-type>java.lang.String</config_notification_action_label1-type>
+					<config_notification_action_label2>&lt;null&gt;</config_notification_action_label2>
+					<config_notification_action_label2-type>java.lang.String</config_notification_action_label2-type>
+					<config_notification_action_label3>&lt;null&gt;</config_notification_action_label3>
+					<config_notification_action_label3-type>java.lang.String</config_notification_action_label3-type>
+					<config_notification_action_on_dismiss>&lt;null&gt;</config_notification_action_on_dismiss>
+					<config_notification_action_on_dismiss-type>java.lang.String</config_notification_action_on_dismiss-type>
+					<config_notification_action_share>false</config_notification_action_share>
+					<config_notification_action_share-type>java.lang.Boolean</config_notification_action_share-type>
+					<config_notification_content_info>&lt;null&gt;</config_notification_content_info>
+					<config_notification_content_info-type>java.lang.String</config_notification_content_info-type>
+					<config_notification_dismiss_on_touch>true</config_notification_dismiss_on_touch>
+					<config_notification_dismiss_on_touch-type>java.lang.Boolean</config_notification_dismiss_on_touch-type>
+					<config_notification_icon>https://lh6.ggpht.com/mp86vbELnqLi2FzvhiKdPX31_oiTRLNyeK8x4IIrbF5eD1D5RdnVwjQP0hwMNR_JdA=s0</config_notification_icon>
+					<config_notification_icon-type>java.lang.String</config_notification_icon-type>
+					<config_notification_indeterminate_progress>false</config_notification_indeterminate_progress>
+					<config_notification_indeterminate_progress-type>java.lang.Boolean</config_notification_indeterminate_progress-type>
+					<config_notification_led_color>&lt;null&gt;</config_notification_led_color>
+					<config_notification_led_color-type>java.lang.String</config_notification_led_color-type>
+					<config_notification_led_off>&lt;null&gt;</config_notification_led_off>
+					<config_notification_led_off-type>java.lang.String</config_notification_led_off-type>
+					<config_notification_led_on>&lt;null&gt;</config_notification_led_on>
+					<config_notification_led_on-type>java.lang.String</config_notification_led_on-type>
+					<config_notification_max_progress>&lt;null&gt;</config_notification_max_progress>
+					<config_notification_max_progress-type>java.lang.String</config_notification_max_progress-type>
+					<config_notification_number>&lt;null&gt;</config_notification_number>
+					<config_notification_number-type>java.lang.String</config_notification_number-type>
+					<config_notification_persistent>true</config_notification_persistent>
+					<config_notification_persistent-type>java.lang.Boolean</config_notification_persistent-type>
+					<config_notification_persistent_create>false</config_notification_persistent_create>
+					<config_notification_persistent_create-type>java.lang.Boolean</config_notification_persistent_create-type>
+					<config_notification_picture>&lt;null&gt;</config_notification_picture>
+					<config_notification_picture-type>java.lang.String</config_notification_picture-type>
+					<config_notification_priority>&lt;null&gt;</config_notification_priority>
+					<config_notification_priority-type>java.lang.String</config_notification_priority-type>
+					<config_notification_progress>&lt;null&gt;</config_notification_progress>
+					<config_notification_progress-type>java.lang.String</config_notification_progress-type>
+					<config_notification_subtext>&lt;null&gt;</config_notification_subtext>
+					<config_notification_subtext-type>java.lang.String</config_notification_subtext-type>
+					<config_notification_text>Battery level : %BATT</config_notification_text>
+					<config_notification_text-type>java.lang.String</config_notification_text-type>
+					<config_notification_ticker>&lt;null&gt;</config_notification_ticker>
+					<config_notification_ticker-type>java.lang.String</config_notification_ticker-type>
+					<config_notification_title>No new WhatsApp messages</config_notification_title>
+					<config_notification_title-type>java.lang.String</config_notification_title-type>
+					<config_notification_url>&lt;null&gt;</config_notification_url>
+					<config_notification_url-type>java.lang.String</config_notification_url-type>
+					<config_notification_vibration>&lt;null&gt;</config_notification_vibration>
+					<config_notification_vibration-type>java.lang.String</config_notification_vibration-type>
+					<config_status_bar_icon>ic_launcher</config_status_bar_icon>
+					<config_status_bar_icon-type>java.lang.String</config_status_bar_icon-type>
+					<configchannel>&lt;null&gt;</configchannel>
+					<configchannel-type>java.lang.String</configchannel-type>
+					<configregid>deviceName</configregid>
+					<configregid-type>java.lang.String</configregid-type>
+					<configttl>&lt;null&gt;</configttl>
+					<configttl-type>java.lang.String</configttl-type>
+					<message>&lt;null&gt;</message>
+					<message-type>java.lang.String</message-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid message passwordSendmessage configregid configttl configchannel collapsekey config_message_recipient_name config_notification_title config_notification_text config_notification_url config_notification_action config_notification_icon config_notification_led_color config_notification_led_on config_notification_led_off config_notification_picture config_notification_action_button1 config_notification_action_label1 config_notification_action_button2 config_notification_action_label2 config_notification_action_button3 config_notification_action_label3 notificaitionid notificaitionsound config_notification_vibration config_status_bar_icon config_action_1_icon config_action_2_icon config_action_3_icon config_notification_ticker config_notification_priority config_notification_number config_notification_content_info config_notification_subtext config_notification_max_progress config_notification_progress target config_notification_action_on_dismiss NotificationButtonIcon1Text NotificationButtonIcon2Text NotificationButtonIcon3Text ActionOnTouchPopup ActionOnDismissPopup ActionButton1Popup ActionButton2Popup </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<notificaitionid>%iter</notificaitionid>
+					<notificaitionid-type>java.lang.String</notificaitionid-type>
+					<notificaitionsound>&lt;null&gt;</notificaitionsound>
+					<notificaitionsound-type>java.lang.String</notificaitionsound-type>
+					<passwordSendmessage>&lt;null&gt;</passwordSendmessage>
+					<passwordSendmessage-type>java.lang.String</passwordSendmessage-type>
+					<plugininstanceid>f8acf252-41ad-45a7-97aa-5d0122eb6c97</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoremote.IntentSendNotification</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+					<target>&lt;null&gt;</target>
+					<target-type>java.lang.String</target-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoremote</Str>
+			<Str sr="arg2" ve="3">AutoRemote Notification</Str>
+			<Int sr="arg3" val="200"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%itermax</lhs>
+					<op>0</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%iter</Str>
+			<Str sr="arg1" ve="3">1:%itermax</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%itermax</lhs>
+					<op>1</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>26965</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ActionButton1Popup>%whatsappText(%iter)</ActionButton1Popup>
+					<ActionButton1Popup-type>java.lang.String</ActionButton1Popup-type>
+					<ActionButton2Popup>&lt;null&gt;</ActionButton2Popup>
+					<ActionButton2Popup-type>java.lang.String</ActionButton2Popup-type>
+					<ActionOnDismissPopup>&lt;null&gt;</ActionOnDismissPopup>
+					<ActionOnDismissPopup-type>java.lang.String</ActionOnDismissPopup-type>
+					<ActionOnTouchPopup>&lt;null&gt;</ActionOnTouchPopup>
+					<ActionOnTouchPopup-type>java.lang.String</ActionOnTouchPopup-type>
+					<NotificationButtonIcon1Text>https://cdn3.iconfinder.com/data/icons/miniglyphs/500/060-512.png</NotificationButtonIcon1Text>
+					<NotificationButtonIcon1Text-type>java.lang.String</NotificationButtonIcon1Text-type>
+					<NotificationButtonIcon2Text>https://cdn3.iconfinder.com/data/icons/iconano-text-editor/512/135-X-alt-512.png</NotificationButtonIcon2Text>
+					<NotificationButtonIcon2Text-type>java.lang.String</NotificationButtonIcon2Text-type>
+					<NotificationButtonIcon3Text>&lt;null&gt;</NotificationButtonIcon3Text>
+					<NotificationButtonIcon3Text-type>java.lang.String</NotificationButtonIcon3Text-type>
+					<collapsekey>&lt;null&gt;</collapsekey>
+					<collapsekey-type>java.lang.String</collapsekey-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Recipient: %deviceName
+Id: %whatsappID(%iter)
+Title: %whatsappName(%iter)
+Text: %whatsappText(%iter)
+Icon: %whatsappPicture(%iter)
+Status Bar Icon: ic_launcher
+Dismiss on Touch: true
+Persistent: true
+Share: false
+Button 1: sendwhatsappmessage=:= %whatsappID(%iter) =:=
+Button 1 Popup: %whatsappText(%iter)
+Label 1: Reply
+Icon 1: AutoRemote
+Icon 1 Path: https://cdn3.iconfinder.com/data/icons/miniglyphs/500/060-512.png
+Button 2: clearwhatsappmessage=:=%whatsappID(%iter)
+Label 2: Clear
+Icon 2: AutoRemote
+Icon 2 Path: https://cdn3.iconfinder.com/data/icons/iconano-text-editor/512/135-X-alt-512.png
+Icon 3: AutoRemote</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<config_action_1_icon>&lt;null&gt;</config_action_1_icon>
+					<config_action_1_icon-type>java.lang.String</config_action_1_icon-type>
+					<config_action_2_icon>&lt;null&gt;</config_action_2_icon>
+					<config_action_2_icon-type>java.lang.String</config_action_2_icon-type>
+					<config_action_3_icon>&lt;null&gt;</config_action_3_icon>
+					<config_action_3_icon-type>java.lang.String</config_action_3_icon-type>
+					<config_message_recipient_name>%deviceName</config_message_recipient_name>
+					<config_message_recipient_name-type>java.lang.String</config_message_recipient_name-type>
+					<config_notification_action>&lt;null&gt;</config_notification_action>
+					<config_notification_action-type>java.lang.String</config_notification_action-type>
+					<config_notification_action_button1>sendwhatsappmessage=:= %whatsappID(%iter) =:=</config_notification_action_button1>
+					<config_notification_action_button1-type>java.lang.String</config_notification_action_button1-type>
+					<config_notification_action_button2>clearwhatsappmessage=:=%whatsappID(%iter)</config_notification_action_button2>
+					<config_notification_action_button2-type>java.lang.String</config_notification_action_button2-type>
+					<config_notification_action_button3>&lt;null&gt;</config_notification_action_button3>
+					<config_notification_action_button3-type>java.lang.String</config_notification_action_button3-type>
+					<config_notification_action_label1>Reply</config_notification_action_label1>
+					<config_notification_action_label1-type>java.lang.String</config_notification_action_label1-type>
+					<config_notification_action_label2>Clear</config_notification_action_label2>
+					<config_notification_action_label2-type>java.lang.String</config_notification_action_label2-type>
+					<config_notification_action_label3>&lt;null&gt;</config_notification_action_label3>
+					<config_notification_action_label3-type>java.lang.String</config_notification_action_label3-type>
+					<config_notification_action_on_dismiss>&lt;null&gt;</config_notification_action_on_dismiss>
+					<config_notification_action_on_dismiss-type>java.lang.String</config_notification_action_on_dismiss-type>
+					<config_notification_action_share>false</config_notification_action_share>
+					<config_notification_action_share-type>java.lang.Boolean</config_notification_action_share-type>
+					<config_notification_content_info>&lt;null&gt;</config_notification_content_info>
+					<config_notification_content_info-type>java.lang.String</config_notification_content_info-type>
+					<config_notification_dismiss_on_touch>true</config_notification_dismiss_on_touch>
+					<config_notification_dismiss_on_touch-type>java.lang.Boolean</config_notification_dismiss_on_touch-type>
+					<config_notification_icon>%whatsappPicture(%iter)</config_notification_icon>
+					<config_notification_icon-type>java.lang.String</config_notification_icon-type>
+					<config_notification_indeterminate_progress>false</config_notification_indeterminate_progress>
+					<config_notification_indeterminate_progress-type>java.lang.Boolean</config_notification_indeterminate_progress-type>
+					<config_notification_led_color>&lt;null&gt;</config_notification_led_color>
+					<config_notification_led_color-type>java.lang.String</config_notification_led_color-type>
+					<config_notification_led_off>&lt;null&gt;</config_notification_led_off>
+					<config_notification_led_off-type>java.lang.String</config_notification_led_off-type>
+					<config_notification_led_on>&lt;null&gt;</config_notification_led_on>
+					<config_notification_led_on-type>java.lang.String</config_notification_led_on-type>
+					<config_notification_max_progress>&lt;null&gt;</config_notification_max_progress>
+					<config_notification_max_progress-type>java.lang.String</config_notification_max_progress-type>
+					<config_notification_number>&lt;null&gt;</config_notification_number>
+					<config_notification_number-type>java.lang.String</config_notification_number-type>
+					<config_notification_persistent>true</config_notification_persistent>
+					<config_notification_persistent-type>java.lang.Boolean</config_notification_persistent-type>
+					<config_notification_persistent_create>false</config_notification_persistent_create>
+					<config_notification_persistent_create-type>java.lang.Boolean</config_notification_persistent_create-type>
+					<config_notification_picture>&lt;null&gt;</config_notification_picture>
+					<config_notification_picture-type>java.lang.String</config_notification_picture-type>
+					<config_notification_priority>&lt;null&gt;</config_notification_priority>
+					<config_notification_priority-type>java.lang.String</config_notification_priority-type>
+					<config_notification_progress>&lt;null&gt;</config_notification_progress>
+					<config_notification_progress-type>java.lang.String</config_notification_progress-type>
+					<config_notification_subtext>&lt;null&gt;</config_notification_subtext>
+					<config_notification_subtext-type>java.lang.String</config_notification_subtext-type>
+					<config_notification_text>%whatsappText(%iter)</config_notification_text>
+					<config_notification_text-type>java.lang.String</config_notification_text-type>
+					<config_notification_ticker>&lt;null&gt;</config_notification_ticker>
+					<config_notification_ticker-type>java.lang.String</config_notification_ticker-type>
+					<config_notification_title>%whatsappName(%iter)</config_notification_title>
+					<config_notification_title-type>java.lang.String</config_notification_title-type>
+					<config_notification_url>&lt;null&gt;</config_notification_url>
+					<config_notification_url-type>java.lang.String</config_notification_url-type>
+					<config_notification_vibration>&lt;null&gt;</config_notification_vibration>
+					<config_notification_vibration-type>java.lang.String</config_notification_vibration-type>
+					<config_status_bar_icon>ic_launcher</config_status_bar_icon>
+					<config_status_bar_icon-type>java.lang.String</config_status_bar_icon-type>
+					<configchannel>&lt;null&gt;</configchannel>
+					<configchannel-type>java.lang.String</configchannel-type>
+					<configregid>deviceName</configregid>
+					<configregid-type>java.lang.String</configregid-type>
+					<configttl>&lt;null&gt;</configttl>
+					<configttl-type>java.lang.String</configttl-type>
+					<message>&lt;null&gt;</message>
+					<message-type>java.lang.String</message-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid message passwordSendmessage configregid configttl configchannel collapsekey config_message_recipient_name config_notification_title config_notification_text config_notification_url config_notification_action config_notification_icon config_notification_led_color config_notification_led_on config_notification_led_off config_notification_picture config_notification_action_button1 config_notification_action_label1 config_notification_action_button2 config_notification_action_label2 config_notification_action_button3 config_notification_action_label3 notificaitionid notificaitionsound config_notification_vibration config_status_bar_icon config_action_1_icon config_action_2_icon config_action_3_icon config_notification_ticker config_notification_priority config_notification_number config_notification_content_info config_notification_subtext config_notification_max_progress config_notification_progress target config_notification_action_on_dismiss NotificationButtonIcon1Text NotificationButtonIcon2Text NotificationButtonIcon3Text ActionOnTouchPopup ActionOnDismissPopup ActionButton1Popup ActionButton2Popup </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<notificaitionid>%whatsappID(%iter)</notificaitionid>
+					<notificaitionid-type>java.lang.String</notificaitionid-type>
+					<notificaitionsound>&lt;null&gt;</notificaitionsound>
+					<notificaitionsound-type>java.lang.String</notificaitionsound-type>
+					<passwordSendmessage>&lt;null&gt;</passwordSendmessage>
+					<passwordSendmessage-type>java.lang.String</passwordSendmessage-type>
+					<plugininstanceid>f8acf252-41ad-45a7-97aa-5d0122eb6c97</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoremote.IntentSendNotification</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+					<target>&lt;null&gt;</target>
+					<target-type>java.lang.String</target-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoremote</Str>
+			<Str sr="arg2" ve="3">AutoRemote Notification</Str>
+			<Int sr="arg3" val="200"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Sending %iter</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>40</code>
+		</Action>
+	</Task>
+	<Task sr="task37">
+		<cdate>1415334190288</cdate>
+		<edate>1415340324486</edate>
+		<id>37</id>
+		<nme>Clear Message</nme>
+		<pri>10</pri>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Received WhatsApp message 
+
+from %arcomm</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%iter</Str>
+			<Str sr="arg1" ve="3">%whatsappID(#?%arcomm)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Sent WhatsApp message. Clearing variables.</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%iter</lhs>
+					<op>3</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>356</code>
+			<Str sr="arg0" ve="3">%whatsappID</Str>
+			<Int sr="arg1">
+				<var>%iter</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>356</code>
+			<Str sr="arg0" ve="3">%whatsappName</Str>
+			<Int sr="arg1">
+				<var>%iter</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>356</code>
+			<Str sr="arg0" ve="3">%whatsappPicture</Str>
+			<Int sr="arg1">
+				<var>%iter</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>356</code>
+			<Str sr="arg0" ve="3">%whatsappText</Str>
+			<Int sr="arg1">
+				<var>%iter</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Cleared variables.</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task40">
+		<cdate>1415334799322</cdate>
+		<edate>1415375664257</edate>
+		<id>40</id>
+		<nme>Find WhatsApp Contact</nme>
+		<pri>10</pri>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%arcomm</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>32337</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Name: %arcomm
+Ignore diacritics: No
+Search: No</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%wt_searchresultnames()
+Search result names
+Full names of the contacts found using the search term provided&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%wt_searchresultids()
+Search result IDs
+Contact ID of every contact found using the search term provided&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>net.zhdev.whatstasker.EXTRA_CONTACT_NAME</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<net.zhdev.whatstasker.EXTRA_CONTACT_NAME>%arcomm</net.zhdev.whatstasker.EXTRA_CONTACT_NAME>
+					<net.zhdev.whatstasker.EXTRA_CONTACT_NAME-type>java.lang.String</net.zhdev.whatstasker.EXTRA_CONTACT_NAME-type>
+					<net.zhdev.whatstasker.EXTRA_IGNORE_ACCENTS>false</net.zhdev.whatstasker.EXTRA_IGNORE_ACCENTS>
+					<net.zhdev.whatstasker.EXTRA_IGNORE_ACCENTS-type>java.lang.Boolean</net.zhdev.whatstasker.EXTRA_IGNORE_ACCENTS-type>
+					<net.zhdev.whatstasker.EXTRA_PLUGIN_TYPE>1</net.zhdev.whatstasker.EXTRA_PLUGIN_TYPE>
+					<net.zhdev.whatstasker.EXTRA_PLUGIN_TYPE-type>java.lang.Integer</net.zhdev.whatstasker.EXTRA_PLUGIN_TYPE-type>
+					<net.zhdev.whatstasker.EXTRA_SEARCH_TYPE>0</net.zhdev.whatstasker.EXTRA_SEARCH_TYPE>
+					<net.zhdev.whatstasker.EXTRA_SEARCH_TYPE-type>java.lang.Integer</net.zhdev.whatstasker.EXTRA_SEARCH_TYPE-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">net.zhdev.whatstasker</Str>
+			<Str sr="arg2" ve="3">WhatsTasker Search Contact</Str>
+			<Int sr="arg3" val="5"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%phone1</Str>
+			<Str sr="arg1" ve="3">Group</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%phone</lhs>
+					<op>4</op>
+					<rhs>.*@g.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>8069</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ContactToQueryEmail>&lt;null&gt;</ContactToQueryEmail>
+					<ContactToQueryEmail-type>java.lang.String</ContactToQueryEmail-type>
+					<ContactToQueryPhoneNumber>&lt;null&gt;</ContactToQueryPhoneNumber>
+					<ContactToQueryPhoneNumber-type>java.lang.String</ContactToQueryPhoneNumber-type>
+					<ContactsOrderBy>&lt;null&gt;</ContactsOrderBy>
+					<ContactsOrderBy-type>java.lang.String</ContactsOrderBy-type>
+					<ContactsRefresh>false</ContactsRefresh>
+					<ContactsRefresh-type>java.lang.Boolean</ContactsRefresh-type>
+					<Name>%wt_searchresultnames(%iter)</Name>
+					<Name-type>java.lang.String</Name-type>
+					<ReplaceInNumbers>&lt;null&gt;</ReplaceInNumbers>
+					<ReplaceInNumbers-type>java.lang.String</ReplaceInNumbers-type>
+					<ReturnNameAsNickname>false</ReturnNameAsNickname>
+					<ReturnNameAsNickname-type>java.lang.Boolean</ReturnNameAsNickname-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Contact Name or Nickname: %wt_searchresultnames(%iter)</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%acaddress
+08. Address
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%acaddresses()
+Addresses
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%acallemailtypes()
+All Email Address Types
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%acallemails()
+All Email Addresses
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%acalleventtypes()
+All Event Types
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%acallevents()
+All Events
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%acallnumbertypes()
+All Phone Number Types
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%acallnumbers()
+All Phone Numbers
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%accities()
+Address Cities
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%accountries()
+Address Countries
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%acdayssinceevent
+11. Days Since Event
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%acdayssinceeventc
+14. Days Since Event Cummulative
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%acdaystoevent
+17. Days To Next Event
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;%acdaystoeventc
+20. Days To Next Event Cummulative
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;%acemail
+06. Email Address
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;%acemailtype
+07. Email Address Type
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;%acemailtypes()
+First Email Types
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;%acemails()
+First Email addresses
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;%acevent
+09. Event
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;%aceventday
+23. Day of Event
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;%aceventmonth
+24. Month of Event
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;%aceventmonthname
+24. Month Name of Event
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES22&gt;%aceventnext
+09. Next Date Event Happens
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES22&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES23&gt;%aceventtype
+10. Event Type
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES23&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES24&gt;%aceventtypes
+First Event Types
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES24&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES25&gt;%aceventweekday
+26. Weekday of Event
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES25&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES26&gt;%aceventweekdayname
+27. Weekday Name of Event
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES26&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES27&gt;%aceventweekdayshortname
+28. Weekday Short Name of Event
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES27&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES28&gt;%aceventyear
+25. Year of Event
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES28&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES29&gt;%acevents()
+First Events
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES29&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES30&gt;%achangouturi
+01. Hangout Uri (Use with Tasker Browse Action)
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES30&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES31&gt;%acid
+00. Id
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES31&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES32&gt;%acids()
+Ids
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES32&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES33&gt;%acmonthssinceevent
+12. Months Since Event
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES33&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES34&gt;%acmonthssinceeventc
+15. Months Since Event Cummulative
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES34&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES35&gt;%acmonthstoevent
+18. Months To Next Event
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES35&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES36&gt;%acmonthstoeventc
+21. Months To Next Event Cummulative
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES36&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES37&gt;%acname
+02. Name
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES37&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES38&gt;%acnames()
+Names
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES38&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES39&gt;%acnickname
+03. Nickname
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES39&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES40&gt;%acnicknames()
+Nicknames
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES40&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES41&gt;%acnumber
+04. Phone Number
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES41&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES42&gt;%acnumbertype
+05. Phone Number Type
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES42&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES43&gt;%acnumbertypes()
+First Phone Number Types
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES43&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES44&gt;%acnumbers()
+First Phone Numbers
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES44&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES45&gt;%acpostcodes()
+Address Postcodes
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES45&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES46&gt;%acregions()
+Address Regions
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES46&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES47&gt;%acstreets()
+Address Streets
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES47&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES48&gt;%acvideohangouturi
+01. Video Hangout Uri (Use with Tasker Browse Action)
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES48&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES49&gt;%acwebsite
+29. Website
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES49&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES50&gt;%acwebsites()
+Websites
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES50&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES51&gt;%acyearssinceevent
+13. Years Since Event
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES51&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES52&gt;%acyearssinceeventc
+16. Years Since Event Cummulative
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES52&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES53&gt;%acyearstoevent
+19. Years To Next Event
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES53&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES54&gt;%acyearstoeventc
+22. Years To Next Event Cummulative
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES54&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid Name ContactsOrderBy ContactToQueryPhoneNumber ContactToQueryEmail ReplaceInNumbers </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>e4f9a903-82ce-4653-a11c-86b4a11f4394</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autocontacts.intent.IntentQueryContacts</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autocontacts</Str>
+			<Str sr="arg2" ve="3">AutoContacts</Str>
+			<Int sr="arg3" val="1000"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>19957</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ContactIdToQuery>%acid</ContactIdToQuery>
+					<ContactIdToQuery-type>java.lang.String</ContactIdToQuery-type>
+					<ContactPictureFullSize>false</ContactPictureFullSize>
+					<ContactPictureFullSize-type>java.lang.Boolean</ContactPictureFullSize-type>
+					<GetContactPicture>true</GetContactPicture>
+					<GetContactPicture-type>java.lang.Boolean</GetContactPicture-type>
+					<PhoneURI>&lt;null&gt;</PhoneURI>
+					<PhoneURI-type>java.lang.String</PhoneURI-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Contact Id: %acid
+Get Picture: true</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%acphonefromuri
+Phone number from the Phone From URI option
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%acpicturefile
+Path of file that contains the contact picture
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid ContactIdToQuery PhoneURI </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>4d81465f-6223-4c84-853a-724b077ae588</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autocontacts.intent.IntentGetContactDetails</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autocontacts</Str>
+			<Str sr="arg2" ve="3">AutoContacts Details</Str>
+			<Int sr="arg3" val="1000"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%acpicturefile</Str>
+			<Str sr="arg1" ve="3">https://lh6.ggpht.com/mp86vbELnqLi2FzvhiKdPX31_oiTRLNyeK8x4IIrbF5eD1D5RdnVwjQP0hwMNR_JdA=s0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%acpicturefile</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%acpicturefile</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>26965</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ActionButton1Popup>&lt;null&gt;</ActionButton1Popup>
+					<ActionButton1Popup-type>java.lang.String</ActionButton1Popup-type>
+					<ActionButton2Popup>&lt;null&gt;</ActionButton2Popup>
+					<ActionButton2Popup-type>java.lang.String</ActionButton2Popup-type>
+					<ActionOnDismissPopup>&lt;null&gt;</ActionOnDismissPopup>
+					<ActionOnDismissPopup-type>java.lang.String</ActionOnDismissPopup-type>
+					<ActionOnTouchPopup>Start conversation with %wt_searchresultnames(%iter)</ActionOnTouchPopup>
+					<ActionOnTouchPopup-type>java.lang.String</ActionOnTouchPopup-type>
+					<NotificationButtonIcon1Text>&lt;null&gt;</NotificationButtonIcon1Text>
+					<NotificationButtonIcon1Text-type>java.lang.String</NotificationButtonIcon1Text-type>
+					<NotificationButtonIcon2Text>&lt;null&gt;</NotificationButtonIcon2Text>
+					<NotificationButtonIcon2Text-type>java.lang.String</NotificationButtonIcon2Text-type>
+					<NotificationButtonIcon3Text>&lt;null&gt;</NotificationButtonIcon3Text>
+					<NotificationButtonIcon3Text-type>java.lang.String</NotificationButtonIcon3Text-type>
+					<collapsekey>&lt;null&gt;</collapsekey>
+					<collapsekey-type>java.lang.String</collapsekey-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Recipient: %deviceName
+Id: %wt_searchresultids(%iter)
+Title: %wt_searchresultnames(%iter) ( +%phone1 )
+Text: Tap to send message
+Action on Touch: sendwhatsappmessage=:=%wt_searchresultids(%iter)=:=
+Action Popup: Start conversation with %wt_searchresultnames(%iter)
+Icon: %acpicturefile
+Status Bar Icon: ic_launcher
+Persistent: true
+Share: false
+Icon 1: AutoRemote
+Icon 2: AutoRemote
+Icon 3: AutoRemote</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<config_action_1_icon>&lt;null&gt;</config_action_1_icon>
+					<config_action_1_icon-type>java.lang.String</config_action_1_icon-type>
+					<config_action_2_icon>&lt;null&gt;</config_action_2_icon>
+					<config_action_2_icon-type>java.lang.String</config_action_2_icon-type>
+					<config_action_3_icon>&lt;null&gt;</config_action_3_icon>
+					<config_action_3_icon-type>java.lang.String</config_action_3_icon-type>
+					<config_message_recipient_name>%deviceName</config_message_recipient_name>
+					<config_message_recipient_name-type>java.lang.String</config_message_recipient_name-type>
+					<config_notification_action>sendwhatsappmessage=:=%wt_searchresultids(%iter)=:=</config_notification_action>
+					<config_notification_action-type>java.lang.String</config_notification_action-type>
+					<config_notification_action_button1>&lt;null&gt;</config_notification_action_button1>
+					<config_notification_action_button1-type>java.lang.String</config_notification_action_button1-type>
+					<config_notification_action_button2>&lt;null&gt;</config_notification_action_button2>
+					<config_notification_action_button2-type>java.lang.String</config_notification_action_button2-type>
+					<config_notification_action_button3>&lt;null&gt;</config_notification_action_button3>
+					<config_notification_action_button3-type>java.lang.String</config_notification_action_button3-type>
+					<config_notification_action_label1>&lt;null&gt;</config_notification_action_label1>
+					<config_notification_action_label1-type>java.lang.String</config_notification_action_label1-type>
+					<config_notification_action_label2>&lt;null&gt;</config_notification_action_label2>
+					<config_notification_action_label2-type>java.lang.String</config_notification_action_label2-type>
+					<config_notification_action_label3>&lt;null&gt;</config_notification_action_label3>
+					<config_notification_action_label3-type>java.lang.String</config_notification_action_label3-type>
+					<config_notification_action_on_dismiss>&lt;null&gt;</config_notification_action_on_dismiss>
+					<config_notification_action_on_dismiss-type>java.lang.String</config_notification_action_on_dismiss-type>
+					<config_notification_action_share>false</config_notification_action_share>
+					<config_notification_action_share-type>java.lang.Boolean</config_notification_action_share-type>
+					<config_notification_content_info>&lt;null&gt;</config_notification_content_info>
+					<config_notification_content_info-type>java.lang.String</config_notification_content_info-type>
+					<config_notification_dismiss_on_touch>false</config_notification_dismiss_on_touch>
+					<config_notification_dismiss_on_touch-type>java.lang.Boolean</config_notification_dismiss_on_touch-type>
+					<config_notification_icon>%acpicturefile</config_notification_icon>
+					<config_notification_icon-type>java.lang.String</config_notification_icon-type>
+					<config_notification_indeterminate_progress>false</config_notification_indeterminate_progress>
+					<config_notification_indeterminate_progress-type>java.lang.Boolean</config_notification_indeterminate_progress-type>
+					<config_notification_led_color>&lt;null&gt;</config_notification_led_color>
+					<config_notification_led_color-type>java.lang.String</config_notification_led_color-type>
+					<config_notification_led_off>&lt;null&gt;</config_notification_led_off>
+					<config_notification_led_off-type>java.lang.String</config_notification_led_off-type>
+					<config_notification_led_on>&lt;null&gt;</config_notification_led_on>
+					<config_notification_led_on-type>java.lang.String</config_notification_led_on-type>
+					<config_notification_max_progress>&lt;null&gt;</config_notification_max_progress>
+					<config_notification_max_progress-type>java.lang.String</config_notification_max_progress-type>
+					<config_notification_number>&lt;null&gt;</config_notification_number>
+					<config_notification_number-type>java.lang.String</config_notification_number-type>
+					<config_notification_persistent>true</config_notification_persistent>
+					<config_notification_persistent-type>java.lang.Boolean</config_notification_persistent-type>
+					<config_notification_persistent_create>false</config_notification_persistent_create>
+					<config_notification_persistent_create-type>java.lang.Boolean</config_notification_persistent_create-type>
+					<config_notification_picture>&lt;null&gt;</config_notification_picture>
+					<config_notification_picture-type>java.lang.String</config_notification_picture-type>
+					<config_notification_priority>&lt;null&gt;</config_notification_priority>
+					<config_notification_priority-type>java.lang.String</config_notification_priority-type>
+					<config_notification_progress>&lt;null&gt;</config_notification_progress>
+					<config_notification_progress-type>java.lang.String</config_notification_progress-type>
+					<config_notification_subtext>&lt;null&gt;</config_notification_subtext>
+					<config_notification_subtext-type>java.lang.String</config_notification_subtext-type>
+					<config_notification_text>Tap to send message</config_notification_text>
+					<config_notification_text-type>java.lang.String</config_notification_text-type>
+					<config_notification_ticker>&lt;null&gt;</config_notification_ticker>
+					<config_notification_ticker-type>java.lang.String</config_notification_ticker-type>
+					<config_notification_title>%wt_searchresultnames(%iter) ( +%phone1 )</config_notification_title>
+					<config_notification_title-type>java.lang.String</config_notification_title-type>
+					<config_notification_url>&lt;null&gt;</config_notification_url>
+					<config_notification_url-type>java.lang.String</config_notification_url-type>
+					<config_notification_vibration>&lt;null&gt;</config_notification_vibration>
+					<config_notification_vibration-type>java.lang.String</config_notification_vibration-type>
+					<config_status_bar_icon>ic_launcher</config_status_bar_icon>
+					<config_status_bar_icon-type>java.lang.String</config_status_bar_icon-type>
+					<configchannel>&lt;null&gt;</configchannel>
+					<configchannel-type>java.lang.String</configchannel-type>
+					<configregid>deviceName</configregid>
+					<configregid-type>java.lang.String</configregid-type>
+					<configttl>&lt;null&gt;</configttl>
+					<configttl-type>java.lang.String</configttl-type>
+					<message>&lt;null&gt;</message>
+					<message-type>java.lang.String</message-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid message passwordSendmessage configregid configttl configchannel collapsekey config_message_recipient_name config_notification_title config_notification_text config_notification_url config_notification_action config_notification_icon config_notification_led_color config_notification_led_on config_notification_led_off config_notification_picture config_notification_action_button1 config_notification_action_label1 config_notification_action_button2 config_notification_action_label2 config_notification_action_button3 config_notification_action_label3 notificaitionid notificaitionsound config_notification_vibration config_status_bar_icon config_action_1_icon config_action_2_icon config_action_3_icon config_notification_ticker config_notification_priority config_notification_number config_notification_content_info config_notification_subtext config_notification_max_progress config_notification_progress target config_notification_action_on_dismiss NotificationButtonIcon1Text NotificationButtonIcon2Text NotificationButtonIcon3Text ActionOnTouchPopup ActionOnDismissPopup ActionButton1Popup ActionButton2Popup </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<notificaitionid>%wt_searchresultids(%iter)</notificaitionid>
+					<notificaitionid-type>java.lang.String</notificaitionid-type>
+					<notificaitionsound>&lt;null&gt;</notificaitionsound>
+					<notificaitionsound-type>java.lang.String</notificaitionsound-type>
+					<passwordSendmessage>&lt;null&gt;</passwordSendmessage>
+					<passwordSendmessage-type>java.lang.String</passwordSendmessage-type>
+					<plugininstanceid>a96d6fd2-0137-4bbc-b18d-3d9262dca688</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoremote.IntentSendNotification</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+					<target>&lt;null&gt;</target>
+					<target-type>java.lang.String</target-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoremote</Str>
+			<Str sr="arg2" ve="3">AutoRemote Notification</Str>
+			<Int sr="arg3" val="200"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%acid</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%acpicturefile</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>26965</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ActionButton1Popup>&lt;null&gt;</ActionButton1Popup>
+					<ActionButton1Popup-type>java.lang.String</ActionButton1Popup-type>
+					<ActionButton2Popup>&lt;null&gt;</ActionButton2Popup>
+					<ActionButton2Popup-type>java.lang.String</ActionButton2Popup-type>
+					<ActionOnDismissPopup>&lt;null&gt;</ActionOnDismissPopup>
+					<ActionOnDismissPopup-type>java.lang.String</ActionOnDismissPopup-type>
+					<ActionOnTouchPopup>&lt;null&gt;</ActionOnTouchPopup>
+					<ActionOnTouchPopup-type>java.lang.String</ActionOnTouchPopup-type>
+					<NotificationButtonIcon1Text>&lt;null&gt;</NotificationButtonIcon1Text>
+					<NotificationButtonIcon1Text-type>java.lang.String</NotificationButtonIcon1Text-type>
+					<NotificationButtonIcon2Text>&lt;null&gt;</NotificationButtonIcon2Text>
+					<NotificationButtonIcon2Text-type>java.lang.String</NotificationButtonIcon2Text-type>
+					<NotificationButtonIcon3Text>&lt;null&gt;</NotificationButtonIcon3Text>
+					<NotificationButtonIcon3Text-type>java.lang.String</NotificationButtonIcon3Text-type>
+					<collapsekey>&lt;null&gt;</collapsekey>
+					<collapsekey-type>java.lang.String</collapsekey-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Recipient: %deviceName
+Id: %iter
+Title: No contact found
+Text: Battery level : %BATT
+Icon: https://lh6.ggpht.com/mp86vbELnqLi2FzvhiKdPX31_oiTRLNyeK8x4IIrbF5eD1D5RdnVwjQP0hwMNR_JdA=s0
+Status Bar Icon: ic_launcher
+Dismiss on Touch: true
+Persistent: true
+Share: false
+Icon 1: AutoRemote
+Icon 2: AutoRemote
+Icon 3: AutoRemote</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<config_action_1_icon>&lt;null&gt;</config_action_1_icon>
+					<config_action_1_icon-type>java.lang.String</config_action_1_icon-type>
+					<config_action_2_icon>&lt;null&gt;</config_action_2_icon>
+					<config_action_2_icon-type>java.lang.String</config_action_2_icon-type>
+					<config_action_3_icon>&lt;null&gt;</config_action_3_icon>
+					<config_action_3_icon-type>java.lang.String</config_action_3_icon-type>
+					<config_message_recipient_name>%deviceName</config_message_recipient_name>
+					<config_message_recipient_name-type>java.lang.String</config_message_recipient_name-type>
+					<config_notification_action>&lt;null&gt;</config_notification_action>
+					<config_notification_action-type>java.lang.String</config_notification_action-type>
+					<config_notification_action_button1>&lt;null&gt;</config_notification_action_button1>
+					<config_notification_action_button1-type>java.lang.String</config_notification_action_button1-type>
+					<config_notification_action_button2>&lt;null&gt;</config_notification_action_button2>
+					<config_notification_action_button2-type>java.lang.String</config_notification_action_button2-type>
+					<config_notification_action_button3>&lt;null&gt;</config_notification_action_button3>
+					<config_notification_action_button3-type>java.lang.String</config_notification_action_button3-type>
+					<config_notification_action_label1>&lt;null&gt;</config_notification_action_label1>
+					<config_notification_action_label1-type>java.lang.String</config_notification_action_label1-type>
+					<config_notification_action_label2>&lt;null&gt;</config_notification_action_label2>
+					<config_notification_action_label2-type>java.lang.String</config_notification_action_label2-type>
+					<config_notification_action_label3>&lt;null&gt;</config_notification_action_label3>
+					<config_notification_action_label3-type>java.lang.String</config_notification_action_label3-type>
+					<config_notification_action_on_dismiss>&lt;null&gt;</config_notification_action_on_dismiss>
+					<config_notification_action_on_dismiss-type>java.lang.String</config_notification_action_on_dismiss-type>
+					<config_notification_action_share>false</config_notification_action_share>
+					<config_notification_action_share-type>java.lang.Boolean</config_notification_action_share-type>
+					<config_notification_content_info>&lt;null&gt;</config_notification_content_info>
+					<config_notification_content_info-type>java.lang.String</config_notification_content_info-type>
+					<config_notification_dismiss_on_touch>true</config_notification_dismiss_on_touch>
+					<config_notification_dismiss_on_touch-type>java.lang.Boolean</config_notification_dismiss_on_touch-type>
+					<config_notification_icon>https://lh6.ggpht.com/mp86vbELnqLi2FzvhiKdPX31_oiTRLNyeK8x4IIrbF5eD1D5RdnVwjQP0hwMNR_JdA=s0</config_notification_icon>
+					<config_notification_icon-type>java.lang.String</config_notification_icon-type>
+					<config_notification_indeterminate_progress>false</config_notification_indeterminate_progress>
+					<config_notification_indeterminate_progress-type>java.lang.Boolean</config_notification_indeterminate_progress-type>
+					<config_notification_led_color>&lt;null&gt;</config_notification_led_color>
+					<config_notification_led_color-type>java.lang.String</config_notification_led_color-type>
+					<config_notification_led_off>&lt;null&gt;</config_notification_led_off>
+					<config_notification_led_off-type>java.lang.String</config_notification_led_off-type>
+					<config_notification_led_on>&lt;null&gt;</config_notification_led_on>
+					<config_notification_led_on-type>java.lang.String</config_notification_led_on-type>
+					<config_notification_max_progress>&lt;null&gt;</config_notification_max_progress>
+					<config_notification_max_progress-type>java.lang.String</config_notification_max_progress-type>
+					<config_notification_number>&lt;null&gt;</config_notification_number>
+					<config_notification_number-type>java.lang.String</config_notification_number-type>
+					<config_notification_persistent>true</config_notification_persistent>
+					<config_notification_persistent-type>java.lang.Boolean</config_notification_persistent-type>
+					<config_notification_persistent_create>false</config_notification_persistent_create>
+					<config_notification_persistent_create-type>java.lang.Boolean</config_notification_persistent_create-type>
+					<config_notification_picture>&lt;null&gt;</config_notification_picture>
+					<config_notification_picture-type>java.lang.String</config_notification_picture-type>
+					<config_notification_priority>&lt;null&gt;</config_notification_priority>
+					<config_notification_priority-type>java.lang.String</config_notification_priority-type>
+					<config_notification_progress>&lt;null&gt;</config_notification_progress>
+					<config_notification_progress-type>java.lang.String</config_notification_progress-type>
+					<config_notification_subtext>&lt;null&gt;</config_notification_subtext>
+					<config_notification_subtext-type>java.lang.String</config_notification_subtext-type>
+					<config_notification_text>Battery level : %BATT</config_notification_text>
+					<config_notification_text-type>java.lang.String</config_notification_text-type>
+					<config_notification_ticker>&lt;null&gt;</config_notification_ticker>
+					<config_notification_ticker-type>java.lang.String</config_notification_ticker-type>
+					<config_notification_title>No contact found</config_notification_title>
+					<config_notification_title-type>java.lang.String</config_notification_title-type>
+					<config_notification_url>&lt;null&gt;</config_notification_url>
+					<config_notification_url-type>java.lang.String</config_notification_url-type>
+					<config_notification_vibration>&lt;null&gt;</config_notification_vibration>
+					<config_notification_vibration-type>java.lang.String</config_notification_vibration-type>
+					<config_status_bar_icon>ic_launcher</config_status_bar_icon>
+					<config_status_bar_icon-type>java.lang.String</config_status_bar_icon-type>
+					<configchannel>&lt;null&gt;</configchannel>
+					<configchannel-type>java.lang.String</configchannel-type>
+					<configregid>deviceName</configregid>
+					<configregid-type>java.lang.String</configregid-type>
+					<configttl>&lt;null&gt;</configttl>
+					<configttl-type>java.lang.String</configttl-type>
+					<message>&lt;null&gt;</message>
+					<message-type>java.lang.String</message-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid message passwordSendmessage configregid configttl configchannel collapsekey config_message_recipient_name config_notification_title config_notification_text config_notification_url config_notification_action config_notification_icon config_notification_led_color config_notification_led_on config_notification_led_off config_notification_picture config_notification_action_button1 config_notification_action_label1 config_notification_action_button2 config_notification_action_label2 config_notification_action_button3 config_notification_action_label3 notificaitionid notificaitionsound config_notification_vibration config_status_bar_icon config_action_1_icon config_action_2_icon config_action_3_icon config_notification_ticker config_notification_priority config_notification_number config_notification_content_info config_notification_subtext config_notification_max_progress config_notification_progress target config_notification_action_on_dismiss NotificationButtonIcon1Text NotificationButtonIcon2Text NotificationButtonIcon3Text ActionOnTouchPopup ActionOnDismissPopup ActionButton1Popup ActionButton2Popup </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<notificaitionid>%iter</notificaitionid>
+					<notificaitionid-type>java.lang.String</notificaitionid-type>
+					<notificaitionsound>&lt;null&gt;</notificaitionsound>
+					<notificaitionsound-type>java.lang.String</notificaitionsound-type>
+					<passwordSendmessage>&lt;null&gt;</passwordSendmessage>
+					<passwordSendmessage-type>java.lang.String</passwordSendmessage-type>
+					<plugininstanceid>f8acf252-41ad-45a7-97aa-5d0122eb6c97</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoremote.IntentSendNotification</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+					<target>&lt;null&gt;</target>
+					<target-type>java.lang.String</target-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoremote</Str>
+			<Str sr="arg2" ve="3">AutoRemote Notification</Str>
+			<Int sr="arg3" val="200"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%wt_searchresultnames(#)</lhs>
+					<op>0</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%wt_searchresultnames()</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%iter</Str>
+			<Str sr="arg1" ve="3">1:%wt_searchresultnames(#)</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%wt_searchresultnames(#)</lhs>
+					<op>1</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%wt_searchresultnames(%iter)</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%phone</Str>
+			<Str sr="arg1" ve="3">%wt_searchresultids(%iter)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%phone</Str>
+			<Str sr="arg1" ve="3">@</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%phone1</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%phone1</Str>
+			<Str sr="arg1" ve="3">91987654321%iter-1</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
