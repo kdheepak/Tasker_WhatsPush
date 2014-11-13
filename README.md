@@ -25,4 +25,4 @@ Needs ROOT to work.
 
 [![ScreenShot](https://raw.githubusercontent.com/kdheepak89/Tasker_WhatsPush/master/img/Screenshot2.png)](https://www.youtube.com/watch?v=plTJ5NGCchM)
 
-Many thanks to UnleashThePhones.com for making this happen!
+Many thanks to [UnleashThePhones.com](www.unleashthephones.com) for making this happen!
