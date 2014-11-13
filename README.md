@@ -5,9 +5,9 @@ Forward Whatsapp Messages to and Reply from Desktop
 
 Needs ROOT to work. 
 
-1) Install Tasker, WhatsTasker and AutoRemote on your phone.
+1) Install Tasker, WhatsTasker and AutoRemote on your phone
 
-2) Install chrome extension AutoRemote.
+2) Install chrome extension AutoRemote
 
 3) Import WhatsPush.prj.xml
 
