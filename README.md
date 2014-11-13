@@ -9,9 +9,11 @@ Needs ROOT to work.
 
 2) Install chrome extension AutoRemote.
 
-3) Add %deviceName as a Tasker variable and set it to your AutoRemote desktop name
+3) Import WhatsPush.prj.xml
 
-4) Set up AutoRemote on Chrome as shown below (optional)
+4) Add %deviceName as a Tasker variable and set it to your AutoRemote desktop name
+
+5) Set up AutoRemote on Chrome as shown below (optional)
 
 [![ScreenShot](https://raw.githubusercontent.com/kdheepak89/Tasker_WhatsPush/master/img/AutoRemote%20Profiles.png)](https://www.youtube.com/watch?v=plTJ5NGCchM)
 
