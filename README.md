@@ -3,7 +3,13 @@ Tasker_WhatsPush
 
 Forward Whatsapp Messages to and Reply from Desktop
 
-Add %deviceName as a Tasker variable and set it to your AutoRemote desktop name
+Needs ROOT to work. 
+
+1) Install Tasker, WhatsTasker and AutoRemote on your phone.
+
+2) Install chrome extension AutoRemote.
+
+3) Add %deviceName as a Tasker variable and set it to your AutoRemote desktop name
 
 [![ScreenShot](https://raw.githubusercontent.com/kdheepak89/Tasker_WhatsPush/master/img/Start%20conversation.png)](https://www.youtube.com/watch?v=plTJ5NGCchM)
 
