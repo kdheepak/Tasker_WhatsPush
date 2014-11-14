@@ -9,7 +9,13 @@ Needs ROOT to work.
 
 2) Install chrome extension [AutoRemote](https://chrome.google.com/webstore/detail/autoremote/hglmpnnkhfjpnoheioijdpleijlmfcfb)
 
-3) Import [WhatsPush.prj.xml](WhatsPush.prj.xml)
+3) Import [WhatsPush.prj.xml](WhatsPush.prj.xml) 
+
+  a) Open [Link](https://raw.githubusercontent.com/kdheepak89/Tasker_WhatsPush/master/WhatsPush.prj.xml)
+
+  b) Right click and Save As 'WhatsPush.prj.xml'. Copy file to your phone
+  
+  c) Press and hold on the projects bar (bottom bar) in Tasker and Import Project
 
 4) Add %deviceName as a Tasker variable and set it to your AutoRemote desktop name
 
